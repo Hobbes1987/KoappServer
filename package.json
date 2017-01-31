@@ -1,0 +1,22 @@
+{
+  "name": "koapp_server",
+  "version": "1.0.0",
+  "description": "Koapp Server",
+  "keywords": [],
+  "author": {
+    "name": "Roel Bruins",
+    "email": "-"
+  },
+  "engines": {
+    "node": ">= 0.6.0",
+    "npm": ">= 1.0.0"
+  },
+  "dependencies": {
+    "restify": "4.3.0",
+    "mongojs": "2.4.0"
+  },
+  "devDependencies": {},
+  "bundleDependencies": [],
+  "private": true,
+  "main": "server.js"
+}
