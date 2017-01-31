@@ -254,7 +254,7 @@ function getOneFrame(req , res , next){
 
 server.get('/' ,home);
 function home(req , res , next){
-    res.send(200,'test');
+    res.send(200,'test 123');
 }
 
 server.get({path : '/adminUser' , version: '0.0.1'} ,adminUser);
